@@ -4,6 +4,10 @@ findflight App, flutter ile yazılmıştır. 2,5mb boyutunda ve toplamda 66bin s
 
 <img src="media/1.png" alt="drawing" height="300"/> <img src="media/2.png" alt="drawing" height="300"/> <img src="media/3.png" alt="drawing" height="300"/> <img src="media/4.png" alt="drawing" height="300"/>
 
+# Library | Use
+provider: ^6.0.0
+<br />http: ^0.13.3
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
