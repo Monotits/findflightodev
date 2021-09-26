@@ -1,0 +1,702 @@
+{
+    "status": false,
+    "request": {
+      "tripType": 2,
+      "ticketDirection": 0,
+      "cabinType": 1,
+      "onlyDirectFlights": false,
+      "adult": 1,
+      "child": 0,
+      "infant": 0,
+      "senior": 0,
+      "student": 0,
+      "flightLegs": [
+        {
+          "from": "ADB",
+          "fromIsCity": false,
+          "to": "FRA",
+          "toIsCity": false, 
+          "ddate": "2021-09-27T00:00:00",
+          "id": "cfcc660a-5b34-473a-a299-93a2ea86409d"
+        },
+        {
+          "from": "FRA",
+          "fromIsCity": false,
+          "to": "ADB",
+          "toIsCity": false,
+          "ddate": "2021-09-30T00:00:00",
+          "id": "9da24d88-f350-4d41-9731-9df3ee22887b"
+        }
+      ],
+      "id": "79dbf10c-1951-4f95-ab48-3b1780fbf2f1"
+    },
+    "provider": 0,
+    "log": null,
+    "offers": [
+        {
+          "returnOffer": false,
+          "flightBookRequestId": null,
+          "flightBookRequest": null,
+          "requestId": "79dbf10c-1951-4f95-ab48-3b1780fbf2f1",
+          "provider": 1,
+          "numberOfBookableSeats": 4,
+          "marketingAirline": {
+            "code": "TK",
+            "name": null,
+            "id": "05ed1db7-55d7-4b43-89e8-68bcab3c9608"
+          },
+          "flights": [
+            {
+              "direction": 1,
+              "cabin": null,
+              "marketingAirline": {
+                "code": "TK",
+                "name": "T�rk Hava Yollar�",
+                "id": "1"
+              },
+              "segments": [
+                {
+                  "flightNo": "2321",
+                  "departure": {
+                    "departureAirport": {
+                      "code": "ADB",
+                      "name": "Adnan Menderes",
+                      "isMultiple": false,
+                      "cityId": "35",
+                      "order": 35,
+                      "city": {
+                        "code": "IZM    ",
+                        "name": "�zmir",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "35"
+                      },
+                      "id": "160"
+                    },
+                    "departureDateTime": "2021-09-27T12:50:00",
+                    "id": "8a36e5e6-385a-4573-ae49-5f1269fd1818"
+                  },
+                  "arrival": {
+                    "arrivalAirport": {
+                      "code": "IST",
+                      "name": "�stanbul",
+                      "isMultiple": false,
+                      "cityId": "34",
+                      "order": 2,
+                      "city": {
+                        "code": "IST    ",
+                        "name": "�stanbul",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "34"
+                      },
+                      "id": "158"
+                    },
+                    "arrivalDateTime": "2021-09-27T14:00:00",
+                    "id": "379f1609-6871-4113-979c-5c6325c86e1a"
+                  },
+                  "operatingAirline": {
+                    "code": "TK",
+                    "name": "T�rk Hava Yollar�",
+                    "id": "1"
+                  },
+                  "cabin": "ECONOMY",
+                  "class": "Y",
+                  "baggage": 0,
+                  "id": "49"
+                },
+                {
+                  "flightNo": "1593",
+                  "departure": {
+                    "departureAirport": {
+                      "code": "IST",
+                      "name": "�stanbul",
+                      "isMultiple": false,
+                      "cityId": "34",
+                      "order": 2,
+                      "city": {
+                        "code": "IST    ",
+                        "name": "�stanbul",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "34"
+                      },
+                      "id": "158"
+                    },
+                    "departureDateTime": "2021-09-27T15:15:00",
+                    "id": "f644ebb1-2b55-4b35-b1d6-8f8bf24b4bdb"
+                  },
+                  "arrival": {
+                    "arrivalAirport": {
+                      "code": "FRA",
+                      "name": "Main Uluslararas�",
+                      "isMultiple": false,
+                      "cityId": "1204",
+                      "order": 1204,
+                      "city": {
+                        "code": "FRA    ",
+                        "name": "Frankfurt",
+                        "countryId": "35",
+                        "country": {
+                          "name": "Almanya",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "35"
+                        },
+                        "airports": [],
+                        "id": "1204"
+                      },
+                      "id": "126"
+                    },
+                    "arrivalDateTime": "2021-09-27T17:25:00",
+                    "id": "00bc8508-019e-431b-a403-c5ac652e6574"
+                  },
+                  "operatingAirline": {
+                    "code": "TK",
+                    "name": "T�rk Hava Yollar�",
+                    "id": "1"
+                  },
+                  "cabin": "ECONOMY",
+                  "class": "W",
+                  "baggage": 0,
+                  "id": "50"
+                }
+              ],
+              "id": "36376745-0512-4513-bdfd-8f597cb5e143"
+            },
+            {
+              "direction": 2,
+              "cabin": null,
+              "marketingAirline": {
+                "code": "TK",
+                "name": "T�rk Hava Yollar�",
+                "id": "1"
+              },
+              "segments": [
+                {
+                  "flightNo": "1592",
+                  "departure": {
+                    "departureAirport": {
+                      "code": "FRA",
+                      "name": "Main Uluslararas�",
+                      "isMultiple": false,
+                      "cityId": "1204",
+                      "order": 1204,
+                      "city": {
+                        "code": "FRA    ",
+                        "name": "Frankfurt",
+                        "countryId": "35",
+                        "country": {
+                          "name": "Almanya",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "35"
+                        },
+                        "airports": [],
+                        "id": "1204"
+                      },
+                      "id": "126"
+                    },
+                    "departureDateTime": "2021-09-30T15:15:00",
+                    "id": "4ac7d478-6635-4d80-8da0-90500c3c1dcb"
+                  },
+                  "arrival": {
+                    "arrivalAirport": {
+                      "code": "IST",
+                      "name": "�stanbul",
+                      "isMultiple": false,
+                      "cityId": "34",
+                      "order": 2,
+                      "city": {
+                        "code": "IST    ",
+                        "name": "�stanbul",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "34"
+                      },
+                      "id": "158"
+                    },
+                    "arrivalDateTime": "2021-09-30T19:15:00",
+                    "id": "232da922-0b84-467b-8ca3-c624cc72ad07"
+                  },
+                  "operatingAirline": {
+                    "code": "TK",
+                    "name": "T�rk Hava Yollar�",
+                    "id": "1"
+                  },
+                  "cabin": "ECONOMY",
+                  "class": "W",
+                  "baggage": 0,
+                  "id": "119"
+                },
+                {
+                  "flightNo": "2340",
+                  "departure": {
+                    "departureAirport": {
+                      "code": "IST",
+                      "name": "�stanbul",
+                      "isMultiple": false,
+                      "cityId": "34",
+                      "order": 2,
+                      "city": {
+                        "code": "IST    ",
+                        "name": "�stanbul",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "34"
+                      },
+                      "id": "158"
+                    },
+                    "departureDateTime": "2021-09-30T21:00:00",
+                    "id": "3a5b9a1a-1e39-4524-bf5e-82f236410077"
+                  },
+                  "arrival": {
+                    "arrivalAirport": {
+                      "code": "ADB",
+                      "name": "Adnan Menderes",
+                      "isMultiple": false,
+                      "cityId": "35",
+                      "order": 35,
+                      "city": {
+                        "code": "IZM    ",
+                        "name": "�zmir",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "35"
+                      },
+                      "id": "160"
+                    },
+                    "arrivalDateTime": "2021-09-30T22:00:00",
+                    "id": "0c4e6c78-43a7-4404-8b45-6f12743af0e1"
+                  },
+                  "operatingAirline": {
+                    "code": "TK",
+                    "name": "T�rk Hava Yollar�",
+                    "id": "1"
+                  },
+                  "cabin": "ECONOMY",
+                  "class": "Y",
+                  "baggage": 0,
+                  "id": "120"
+                }
+              ],
+              "id": "943bf511-a5f4-43e5-a6ad-35baff1eb44a"
+            }
+          ],
+          "price": {
+            "currency": "TRY",
+            "total": 2177.12,
+            "base": 348,
+            "tax": 0,
+            "fee": 10,
+            "passengerCode": "ADT",
+            "id": "aff52100-7b74-4f61-bd3d-f6dfe6fe8170"
+          },
+          "passengerPrices": [
+            {
+              "currency": "TRY",
+              "total": 2177.12,
+              "base": 348,
+              "tax": 0,
+              "fee": 10,
+              "passengerCode": "ADT",
+              "id": "aff52100-7b74-4f61-bd3d-f6dfe6fe8170"
+            }
+          ],
+          "id": "7"
+        },
+        {
+          "returnOffer": false,
+          "flightBookRequestId": null,
+          "flightBookRequest": null,
+          "requestId": "79dbf10c-1951-4f95-ab48-3b1780fbf2f1",
+          "provider": 1,
+          "numberOfBookableSeats": 4,
+          "marketingAirline": {
+            "code": "TK",
+            "name": null,
+            "id": "f57bd7a8-c3cf-4f27-af35-a938ddfa8fc9"
+          },
+          "flights": [
+            {
+              "direction": 1,
+              "cabin": null,
+              "marketingAirline": {
+                "code": "TK",
+                "name": "T�rk Hava Yollar�",
+                "id": "1"
+              },
+              "segments": [
+                {
+                  "flightNo": "2321",
+                  "departure": {
+                    "departureAirport": {
+                      "code": "ADB",
+                      "name": "Adnan Menderes",
+                      "isMultiple": false,
+                      "cityId": "35",
+                      "order": 35,
+                      "city": {
+                        "code": "IZM    ",
+                        "name": "�zmir",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "35"
+                      },
+                      "id": "160"
+                    },
+                    "departureDateTime": "2021-09-27T12:50:00",
+                    "id": "aaadafbe-fdc1-48ca-bfb0-af68179cbccf"
+                  },
+                  "arrival": {
+                    "arrivalAirport": {
+                      "code": "IST",
+                      "name": "�stanbul",
+                      "isMultiple": false,
+                      "cityId": "34",
+                      "order": 2,
+                      "city": {
+                        "code": "IST    ",
+                        "name": "�stanbul",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "34"
+                      },
+                      "id": "158"
+                    },
+                    "arrivalDateTime": "2021-09-27T14:00:00",
+                    "id": "5b49a51d-771b-40ef-9623-0df18207dd3b"
+                  },
+                  "operatingAirline": {
+                    "code": "TK",
+                    "name": "T�rk Hava Yollar�",
+                    "id": "1"
+                  },
+                  "cabin": "ECONOMY",
+                  "class": "Y",
+                  "baggage": 0,
+                  "id": "49"
+                },
+                {
+                  "flightNo": "1593",
+                  "departure": {
+                    "departureAirport": {
+                      "code": "IST",
+                      "name": "�stanbul",
+                      "isMultiple": false,
+                      "cityId": "34",
+                      "order": 2,
+                      "city": {
+                        "code": "IST    ",
+                        "name": "�stanbul",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "34"
+                      },
+                      "id": "158"
+                    },
+                    "departureDateTime": "2021-09-27T15:15:00",
+                    "id": "cc752568-653b-4a76-aef1-7fb09e388876"
+                  },
+                  "arrival": {
+                    "arrivalAirport": {
+                      "code": "FRA",
+                      "name": "Main Uluslararas�",
+                      "isMultiple": false,
+                      "cityId": "1204",
+                      "order": 1204,
+                      "city": {
+                        "code": "FRA    ",
+                        "name": "Frankfurt",
+                        "countryId": "35",
+                        "country": {
+                          "name": "Almanya",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "35"
+                        },
+                        "airports": [],
+                        "id": "1204"
+                      },
+                      "id": "126"
+                    },
+                    "arrivalDateTime": "2021-09-27T17:25:00",
+                    "id": "93ef3ef1-749a-4bd7-ad9b-770cfdc54ca5"
+                  },
+                  "operatingAirline": {
+                    "code": "TK",
+                    "name": "T�rk Hava Yollar�",
+                    "id": "1"
+                  },
+                  "cabin": "ECONOMY",
+                  "class": "W",
+                  "baggage": 0,
+                  "id": "50"
+                }
+              ],
+              "id": "9c3d9376-cbc7-4f71-bdc6-a8b2b2df9139"
+            },
+            {
+              "direction": 2,
+              "cabin": null,
+              "marketingAirline": {
+                "code": "TK",
+                "name": "T�rk Hava Yollar�",
+                "id": "1"
+              },
+              "segments": [
+                {
+                  "flightNo": "1594",
+                  "departure": {
+                    "departureAirport": {
+                      "code": "FRA",
+                      "name": "Main Uluslararas�",
+                      "isMultiple": false,
+                      "cityId": "1204",
+                      "order": 1204,
+                      "city": {
+                        "code": "FRA    ",
+                        "name": "Frankfurt",
+                        "countryId": "35",
+                        "country": {
+                          "name": "Almanya",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "35"
+                        },
+                        "airports": [],
+                        "id": "1204"
+                      },
+                      "id": "126"
+                    },
+                    "departureDateTime": "2021-09-30T18:50:00",
+                    "id": "c35426d5-0728-4ce7-a98b-5f6936c60eb3"
+                  },
+                  "arrival": {
+                    "arrivalAirport": {
+                      "code": "IST",
+                      "name": "�stanbul",
+                      "isMultiple": false,
+                      "cityId": "34",
+                      "order": 2,
+                      "city": {
+                        "code": "IST    ",
+                        "name": "�stanbul",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "34"
+                      },
+                      "id": "158"
+                    },
+                    "arrivalDateTime": "2021-09-30T22:55:00",
+                    "id": "065688e4-3ff0-497d-8c83-e2aa8594d661"
+                  },
+                  "operatingAirline": {
+                    "code": "TK",
+                    "name": "T�rk Hava Yollar�",
+                    "id": "1"
+                  },
+                  "cabin": "ECONOMY",
+                  "class": "W",
+                  "baggage": 0,
+                  "id": "123"
+                },
+                {
+                  "flightNo": "2354",
+                  "departure": {
+                    "departureAirport": {
+                      "code": "IST",
+                      "name": "�stanbul",
+                      "isMultiple": false,
+                      "cityId": "34",
+                      "order": 2,
+                      "city": {
+                        "code": "IST    ",
+                        "name": "�stanbul",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "34"
+                      },
+                      "id": "158"
+                    },
+                    "departureDateTime": "2021-10-01T01:35:00",
+                    "id": "8062a9ff-0de9-406a-95eb-2e10de5ab3aa"
+                  },
+                  "arrival": {
+                    "arrivalAirport": {
+                      "code": "ADB",
+                      "name": "Adnan Menderes",
+                      "isMultiple": false,
+                      "cityId": "35",
+                      "order": 35,
+                      "city": {
+                        "code": "IZM    ",
+                        "name": "�zmir",
+                        "countryId": "77",
+                        "country": {
+                          "name": "T�rkiye",
+                          "twoLetterIsoCode": null,
+                          "threeLetterIsoCode": null,
+                          "numericIsoCode": 0,
+                          "phoneCode": null,
+                          "cities": [],
+                          "id": "77"
+                        },
+                        "airports": [],
+                        "id": "35"
+                      },
+                      "id": "160"
+                    },
+                    "arrivalDateTime": "2021-10-01T02:40:00",
+                    "id": "7eecfc8e-4357-4105-b869-f276406bfbb9"
+                  },
+                  "operatingAirline": {
+                    "code": "TK",
+                    "name": "T�rk Hava Yollar�",
+                    "id": "1"
+                  },
+                  "cabin": "ECONOMY",
+                  "class": "Y",
+                  "baggage": 0,
+                  "id": "124"
+                }
+              ],
+              "id": "41852940-eb23-4dce-8e0f-f99da9757f53"
+            }
+          ],
+          "price": {
+            "currency": "TRY",
+            "total": 2177.12,
+            "base": 348,
+            "tax": 0,
+            "fee": 10,
+            "passengerCode": "ADT",
+            "id": "9a1dabc0-e3ec-4719-a7a8-ad776e1a715f"
+          },
+          "passengerPrices": [
+            {
+              "currency": "TRY",
+              "total": 2177.12,
+              "base": 348,
+              "tax": 0,
+              "fee": 10,
+              "passengerCode": "ADT",
+              "id": "9a1dabc0-e3ec-4719-a7a8-ad776e1a715f"
+            }
+          ],
+          "id": "8"
+        }
+    ],
+    "id": "e558d7e6-7240-4459-bbf8-367585e395d2"
+}
