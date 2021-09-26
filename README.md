@@ -16,8 +16,7 @@ Ardından filtreleme sayfasına geçilerek, aktarma / aktarmasız, fiyat aralı�
 <img src="media/5.png" alt="drawing" height="300"/> <img src="media/6.png" alt="drawing" height="300"/> <img src="media/7.png" alt="drawing" height="300"/> <img src="media/8.png" alt="drawing" height="300"/> 
 
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/LED03IRaDTk/0.jpg)](http://www.youtube.com/watch?v=LED03IRaDTk "FindFlight App - Ödev")
-https://youtu.be/LED03IRaDTk
+[![Selam](http://img.youtube.com/vi/LED03IRaDTk/0.jpg)](http://www.youtube.com/watch?v=LED03IRaDTk "FindFlight App - Ödev")
 
 
 <br />Uygulama tasarımında, arayüz ve kullanıcı deneyimi dikkate alınmamıştır. 
