@@ -15,5 +15,5 @@ Ardından filtreleme sayfasına geçilerek, aktarma / aktarmasız, fiyat aralı�
 <img src="media/5.png" alt="drawing" height="300"/> <img src="media/6.png" alt="drawing" height="300"/> <img src="media/7.png" alt="drawing" height="300"/> <img src="media/8.png" alt="drawing" height="300"/> 
 
 
-Uygulama, Iphone SE (2nd Generation) emülatörü üzerinde test edilerek geliştirilmiştir.
-Uygulama ekran görüntülerine ve video içeriklerine media klasöründen ulaşılabilir.
+<br />Uygulama, Iphone SE (2nd Generation) emülatörü üzerinde test edilerek geliştirilmiştir.
+<br />Uygulama ekran görüntülerine ve video içeriklerine media klasöründen ulaşılabilir.
