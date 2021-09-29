@@ -13,10 +13,12 @@ Uygulama için öncelikle json dosyasına göre modeller oluşturulmuş ve parse
 Ardından ekran tasarımlarına geçilmiş ve ilk ekran oluşturulmuştur. Uygulama; nereden nereye, tarih ve benzeri uçuş bilgilerinin görüntülendiği ekranla açılmaktadır. Hemen altında ki sonuçları görüntüle butonuna bastığımızda json dosyasından parse edilen bilgiler uçuş bilgi card'ları olarak 201 adet görüntülenmekedir. 
 Ardından filtreleme sayfasına geçilerek, aktarma / aktarmasız, fiyat aralığı, kalkış saat aralığı, iniş saat aralığı, uçuşların bağlı olduğu havaalanları ve havayolu firma seçimi şeklinde sonuçlar filtrelenerek listelenmektedir.
 
-<img src="media/5.png" alt="drawing" height="300"/> <img src="media/6.png" alt="drawing" height="300"/> <img src="media/7.png" alt="drawing" height="300"/> <img src="media/8.png" alt="drawing" height="300"/> 
+<img src="media/5.png" alt="drawing" height="300"/> <img src="media/6.png" alt="drawing" height="300"/> <img src="media/7.png" alt="drawing" height="300"/> <img src="media/8.png" alt="drawing" height="300"/>
+<img src="media/9.png" alt="drawing" height="300"/> <img src="media/10.png" alt="drawing" height="300"/>
 
 <br /> FindFlight App - Video @Youtube: 
 <br />[![-](http://img.youtube.com/vi/LED03IRaDTk/0.jpg)](http://www.youtube.com/watch?v=LED03IRaDTk "FindFlight App - Ödev")
+<br />[![-](https://youtu.be/WxzZP7Klcrw/0.jpg)](https://youtu.be/WxzZP7Klcrw "FindFlight App - Validasyon")
 
 
 <br />- Uygulama tasarımında, arayüz ve kullanıcı deneyimi dikkate alınmamıştır. 
