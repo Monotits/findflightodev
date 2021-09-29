@@ -16,6 +16,7 @@ class Category extends StatelessWidget {
   Widget build(BuildContext context) {
     MyProvider myProvider = Provider.of<MyProvider>(context);
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Kategori'),
       ),

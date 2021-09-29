@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 final title = TextStyle(fontSize: 15, fontWeight: FontWeight.bold);
 
+final titleYolcu = TextStyle(fontSize: 13, fontWeight: FontWeight.bold);
+
 final card1 = TextStyle(fontSize: 8, fontWeight: FontWeight.normal);
 
 final thyLogo = Image.network(

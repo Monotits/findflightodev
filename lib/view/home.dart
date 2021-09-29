@@ -1,6 +1,7 @@
 import 'package:findflight/view/category.dart';
 import 'package:findflight/constant/constant.dart';
 import 'package:findflight/provider/myproivder.dart';
+import 'package:findflight/view/passenger.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -48,6 +49,7 @@ class _HomeState extends State<Home> {
     data1 = myProvider.dataFiltre;
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.white,
         floatingActionButton: myProvider.data.length != 0
             ? FloatingActionButton.extended(
                 icon: Icon(Icons.ballot_outlined),
@@ -543,7 +545,14 @@ class _HomeState extends State<Home> {
                                                           .dataFiltre[index][5]
                                                           .toString()),
                                                       ElevatedButton(
-                                                          onPressed: () {},
+                                                          onPressed: () {
+                                                            Navigator.of(
+                                                                    context)
+                                                                .push(MaterialPageRoute(
+                                                                    builder:
+                                                                        (context) =>
+                                                                            Passengers()));
+                                                          },
                                                           child: Text(
                                                             'Sec',
                                                           )),

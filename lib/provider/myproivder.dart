@@ -224,7 +224,6 @@ class MyProvider extends ChangeNotifier {
       Ucak flight = Ucak.fromJson(responseJson);
       for (var i = 0; i < flight.offers!.length; i++) {
         fiyatListesi.add(flight.offers![i].price!.total!);
-
         _data.add([
           flight.offers![i].flights![0].marketingAirline!
               .code, // 0- Havayolu Kısaltma İsmi - Gidiş

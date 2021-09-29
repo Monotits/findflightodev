@@ -1,4 +1,5 @@
 import 'package:findflight/provider/myproivder.dart';
+import 'package:findflight/provider/validasyon_provider.dart';
 import 'package:findflight/view/home.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -12,11 +13,14 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(
           create: (_) => MyProvider(),
+        ),
+        ChangeNotifierProvider(
+          create: (_) => ValidasyonProvider(),
         )
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Material App',
+        title: 'FindFlight',
         home: SafeArea(
           child: Scaffold(
             body: Home(),
