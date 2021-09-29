@@ -19,8 +19,9 @@ Uygulama için öncelikle json dosyasına göre modeller oluşturulmuş ve parse
 <img src="media/9.png" alt="drawing" height="300"/> <img src="media/10.png" alt="drawing" height="300"/>
 <br />Validasyon ekranında ise veri girişine uygun olarak tek bir form yapısı latında validasyonlar sağlanmaktadır. Ayrıca yaş kontrolü yapılarak yetişkin bireyler için 12 yaş sınırı belirlenmiş olup 12 yaşın altında olan doğum tarihi seçimi yapılmasına izin verilmemiştir.
 
-# Video
-[![FindFlight App](https://img.youtube.com/vi/WxzZP7Klcrw/0.jpg)](https://www.youtube.com/watch?v=WxzZP7Klcrw "FindFlight App")
+# Youtube video
+<br />[![FindFlight App](https://img.youtube.com/vi/LED03IRaDTk/0.jpg)](https://www.youtube.com/watch?v=LED03IRaDTk "FindFlight App")
+<br />[![FindFlight App](https://img.youtube.com/vi/WxzZP7Klcrw/0.jpg)](https://www.youtube.com/watch?v=WxzZP7Klcrw "FindFlight App")
 
 - Uygulama tasarımında, arayüz ve kullanıcı deneyimi dikkate alınmamıştır.
 - Uygulama, Iphone SE (2nd Generation) emülatörü üzerinde test edilerek geliştirilmiştir.
