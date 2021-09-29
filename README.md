@@ -19,7 +19,7 @@ Ardından filtreleme sayfasına geçilerek, aktarma / aktarmasız, fiyat aralı�
 
 <br /> FindFlight App - Video @Youtube: 
 <br />[![-](http://img.youtube.com/vi/LED03IRaDTk/0.jpg)](http://www.youtube.com/watch?v=LED03IRaDTk "FindFlight App - Ödev")
-<br />[![-](https://youtu.be/WxzZP7Klcrw/1.jpg)](https://youtu.be/WxzZP7Klcrw "FindFlight App - Validasyon")
+<br />[![-](https://youtu.be/WxzZP7Klcrw/2.jpg)](https://youtu.be/WxzZP7Klcrw "FindFlight App - Validasyon")
 
 
 <br />- Uygulama tasarımında, arayüz ve kullanıcı deneyimi dikkate alınmamıştır. 
