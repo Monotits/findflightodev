@@ -12,8 +12,8 @@ provider: ^6.0.0
 # How to
 Uygulama için öncelikle json dosyasına göre modeller oluşturulmuş ve parse işlemi tamamlanmıştır.
 Ardından ekran tasarımlarına geçilmiş ve ilk ekran oluşturulmuştur. Uygulama; nereden nereye, tarih ve benzeri uçuş bilgilerinin görüntülendiği ekranla açılmaktadır. Hemen altında ki sonuçları görüntüle butonuna bastığımızda json dosyasından parse edilen bilgiler uçuş bilgi card'ları olarak 201 adet görüntülenmekedir. 
-Ardından filtreleme sayfasına geçilerek, aktarma / aktarmasız, fiyat aralığı, kalkış saat aralığı, iniş saat aralığı, uçuşların bağlı olduğu havaalanları ve havayolu firma seçimi şeklinde sonuçlar filtrelenerek listelenmektedir.
-Validasyon ekranında ise veri girişine uygun olarak tek bir form yapısı latında validasyonlar sağlanmaktadır. Ayrıca yaş kontrolü yapılarak yetişkin bireyler için 12 yaş sınırı belirlenmiş olup 12 yaşın altında olan doğum tarihi seçimi yapılmasına izin verilmemiştir.
+<br />Ardından filtreleme sayfasına geçilerek, aktarma / aktarmasız, fiyat aralığı, kalkış saat aralığı, iniş saat aralığı, uçuşların bağlı olduğu havaalanları ve havayolu firma seçimi şeklinde sonuçlar filtrelenerek listelenmektedir.
+<br />Validasyon ekranında ise veri girişine uygun olarak tek bir form yapısı latında validasyonlar sağlanmaktadır. Ayrıca yaş kontrolü yapılarak yetişkin bireyler için 12 yaş sınırı belirlenmiş olup 12 yaşın altında olan doğum tarihi seçimi yapılmasına izin verilmemiştir.
 
 <img src="media/5.png" alt="drawing" height="300"/> <img src="media/6.png" alt="drawing" height="300"/> <img src="media/7.png" alt="drawing" height="300"/> <img src="media/8.png" alt="drawing" height="300"/>
 
