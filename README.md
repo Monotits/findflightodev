@@ -15,6 +15,7 @@ Ardından filtreleme sayfasına geçilerek, aktarma / aktarmasız, fiyat aralı�
 
 <img src="media/5.png" alt="drawing" height="300"/> <img src="media/6.png" alt="drawing" height="300"/> <img src="media/7.png" alt="drawing" height="300"/> <img src="media/8.png" alt="drawing" height="300"/>
 
+<br />Validasyon Ekranı:
 <img src="media/9.png" alt="drawing" height="300"/> <img src="media/10.png" alt="drawing" height="300"/>
 
 <br /> FindFlight App - Video @Youtube: 
